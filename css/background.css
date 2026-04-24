@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .t2 { */
+   /* background-color: #ff0101; */
+  /* width: 100%; */
+  /* height: 100vh; */
+  /* margin-top: 2rem; */
+/* clip-path: polygon( */
+  /* 0% 1%,   البداية فوق قليل */
+  /* 20% 4%,  نزول */
+  /* 40% 10%,  طلوع */
+  /* 60% 40%,  نزول تاني */
+  /* 80% 20%,  طلوع */
+  /* 100% 40%, النزول الأخير */
+  /* 100% 100%, أسفل يمين لإغلاق الشكل */
+  /* 0% 100%    أسفل يسار لإغلاق الشكل */
+/* ); */
+/* } */
+/*  */
+.t1 {
+  background-color: red;
+  width: 100%;
+  height: 90vh;
+  margin-top: 2rem;
+  opacity: 0.7;
+}
+
+
+
+@media (max-width: 767px) {
+  .background{
+flex-direction: column;
+}
+.clip  {
+text-align: center;
+width: 95%;
+margin: auto;
+}
+.clip  ,.path {
+  margin-top: 3rem;
+}
+.t1 {
+  background-color: red;
+  width: 100%;
+  height: 120vh;
+  margin-top: 2rem;
+  opacity: 0.7;
+}
+
+}
+.background{
+display: flex;
+justify-content: space-around;
+align-items: stretch;
+}
+.clip p  {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: end;
+}
+.centertop , .centertop1 , .centertop2 , .centertop3 , .centertop4 {
+   width: 100%;
+  background-color: #fff;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  margin: auto;
+}
+
+.doloribus {
+   width: 90%;             
+   max-width: 300px;      
+   margin: 2rem auto;     
+   background-color: #111;
+   border-radius: 20px;
+   text-align: center;
+   padding: 10px;
+   color: #fff;
+   cursor: pointer;
+   font-weight: 600;
+   transition: all 0.3s ease; 
+}
+
+@media (min-width: 768px) {
+   .doloribus {
+       width: 50%;
+       max-width: 400px;
+   }
+}
+
+@media (min-width: 1024px) {
+   .doloribus {
+       width: 20%;
+       max-width: 500px;
+   }
+}
+.doloribus:hover{
+   transition: 1s;
+   -webkit-transition: 1s;
+   -moz-transition: 1s;
+   -ms-transition: 1s;
+   -o-transition: 1s;
+   background-color: rgb(101, 54, 54);
+}
+.links {
+  gap: 1px 10px;
+  width: 80%;
+  margin: auto;
+  margin-top: 7rem;
+}
+
+.jone-imf , .jone-imf1 , .jone-imf2 , .jone-imf3 , .jone-imf4{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 10px;
+  margin-right: 1rem;
+  margin-top: 5px;
+}
+.jone-imf img , .jone-imf1 img , .jone-imf2 img  , .jone-imf3 img  , .jone-imf4 img  {
+  box-shadow: 1px 1px 30px #eee inset;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.jone-one ,.jone-one1 , .jone-one2 , .jone-one3 , .jone-one4{
+  text-align: end;
+    margin-right: 3rem;
+  margin-top: 5px;
+}
+.clip h3 {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+}
+.clip  ,.path {
+  margin-top: 3rem;
+}
+.path {
+  display: flex;
+justify-content: center;
+align-items: stretch;
+gap: 10px;
+}
+
+.path a {
+  clip-path: circle();
+  background-color: #ddd;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+.path a.activepath {
+  background-color: #fff;
+}
+
+

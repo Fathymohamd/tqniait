@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login.html</title>
+    <link rel="icon" href="../imgs-center/22.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
+</head>
+
+<link rel="stylesheet" href="../css/Master.css">
+<link rel="stylesheet" href="../css/center-bottom.css">
+<link rel="stylesheet" href="../css/Login.css">
+<body>
+
+<div class="container1">
+<div class="nav">
+
+<div class="ul">
+  <p>تواصل معنا</p>
+<a href="https://www.instagram.com/tqniait9"><i class="fa-brands fa-instagram"></i></a>
+
+<a href="https://www.linkedin.com/company/tqniait"><i class="fa-brands fa-linkedin"></i></a>
+
+<a href="https://x.com/TqniaIT"><i class="fa-brands fa-twitter"></i></a>
+<a href="https://www.facebook.com/TqniaIT"><i class="fa-brands fa-facebook"></i></a>
+<p id="data_user"></p>
+</div>
+
+<div class="li">
+<p>+966 565 515 071</p>
+<p><i class="fa-solid fa-phone-flip"></i></p>
+<a href="https://api.whatsapp.com/send?phone=966567769286"><i class="fa-brands fa-whatsapp"></i></a>
+<div class="gmail">
+<p>info@Qniait.com</p>
+<p><i class="fa-regular fa-envelope"></i></p>
+</div>
+</div>
+</div>
+<div class="hr"></div>
+
+
+<div class="header-top">
+<div class="base"><i class="fa-solid fa-bars"></i></div>
+<div class="header-left">
+
+<div class="header-img">
+<img src="../imgs/2.png"/>
+</div>
+<p>  <i class="fa-solid fa-caret-down"></i> العربية <i class="fa-solid fa-globe-americas"></i> </p>
+<div class="dropdown-one-and">
+<p>  <i class="fa-solid fa-caret-down"></i> الحساب</p>
+<div class="dom-one-min-and">
+<a href="../indexs/login.html"><h2>تسجيل دخول <i class="fa-solid fa-caret-left"></i> </h2></a>
+<a href=""><h2>الأشتراك <i class="fa-solid fa-caret-left"></i> </h2></a>
+<a href=""><h2>فقد بينات الدخول  <i class="fa-solid fa-caret-left"></i> </h2></a>
+</div>
+</div>
+<p><a href="">فتح تذكرة</a></p>
+<p>العروض الخصة</p>
+
+  
+<div class="dropdown-one">
+<p class="min"> <i class="fa-solid fa-caret-down"></i>  من اعمالنا</p>
+<div class="dom-one-min">
+<h2>معرض اعمال <i class="fa-solid fa-caret-left"></i> </h2>
+<h2>برنامج المحماه <i class="fa-solid fa-caret-left"></i> </h2>
+<h2>البرنامج الطبى <i class="fa-solid fa-caret-left"></i> </h2>
+<h2> البرنامج الشؤون القانونية <i class="fa-solid fa-caret-left"></i> </h2>
+<h2>اسكربت <i class="fa-solid fa-caret-left"></i> </h2>
+</div>
+</div>
+
+
+
+<div class="dropdown">
+<p id="fa-solid"> <i class="fa-solid fa-caret-down"></i>   الخدمات</p>
+<div class="dom-one">
+<h2> استضافة موقع <i class="fa-solid fa-caret-left"></i> </h2>
+<h2> غير مدارة vps سيرفرات <i class="fa-solid fa-caret-left"></i> </h2>
+<h2> مدارة vps سيرفرات  <i class="fa-solid fa-caret-left"></i> </h2>
+<h2> سيرفرات وندز <i class="fa-solid fa-caret-left"></i> </h2>
+<h2> سيرفرات الخاصة <i class="fa-solid fa-caret-left"></i> </h2>
+<h2>تصميم مواقع <i class="fa-solid fa-caret-left"></i> </h2>
+<h2>تصميم المتاجر <i class="fa-solid fa-caret-left"></i> </h2>
+<h2>التسمويق الكترونى <i class="fa-solid fa-caret-left"></i> </h2>
+<h2>خدمة الدعم الفنى <i class="fa-solid fa-caret-left"></i> </h2>
+<h2>حجز نطاق <i class="fa-solid fa-caret-left"></i> </h2>
+</div>
+</div> 
+<p><a href="">خدمة العملاء</a></p>
+<p><a href="">عن الشركة</a></p>
+<p><a href="../index.html">الرئسية</a></p>
+</div> 
+
+<div class="header-rigth">
+<img src="../imgs/2.png"/>
+</div>
+</div>
+
+
+
+<div class="login">
+<p> <span>تسجيل الدخول</span> هذه الصفحة مخصصة</p>
+</div>
+<div class="hr1"></div>
+<div class="login1"><p>من فضلك قم بملئ البيانات الاتية</p></div>
+
+
+<form>
+   <div id="emailHelp" class="form-text"></div> 
+    <div id="emailHelp_add" class="form-text"></div> 
+  <div class="form-control">
+    <label  class="form-label-and">البريد الاكتورونى</label>
+    <input type="email"  id="email" aria-describedby="emailHelp"
+     placeholder="ادخل بريدك" required>
+  </div>
+  <div class="form-control">
+    <label  class="form-label">كلمة المرور</label>
+    <input type="password" id="password"   placeholder="كلمة المرور" required>
+  </div>
+
+  <button type="button" class="btn-primary" onclick="login()">تسجيل دخول</button>
+
+<a href="./email.html"> <div id="fkd">فقد بيانات الدخول؟</div></a>
+  <div class="examp">ليس لديك حساب؟ من فضلك قم <a href="../indexs/Register.html"><span>بالتسجيل</span></a></div>
+</form>
+
+
+
+
+<div class="center-bottom">
+  <div class="center-lift">
+<h1>تواصل معنا</h1>
+<div class="font">
+<div class="font-one">
+<h2> info@tqniait.com : لمراستنا</h2>
+<h5><i class="fa-solid fa-envelope"></i></h5>
+</div>
+<div class="font-one">
+<h2> complaints@tqniait.com: الشكاوى</h2>
+<h5><i class="fa-solid fa-gift"></i></h5>
+</div>
+
+<div class="font-one">
+<h2>(+966) 0567769286 : المبيعات</h2>
+<h5><i class="fa-solid fa-cart-shopping"></i></h5>
+</div>
+
+<div class="font-one">
+<h2> (+966) 0565515077 : خدمة العملاء</h2>
+<h5><i class="fa-solid fa-headset"></i></h5>
+</div>
+
+<div class="font-one">
+<h2> (+20) 01158150888 : فرع القاهرة</h2>
+<h5><i class="fa-solid fa-phone"></i></h5>
+</div>
+
+<div class="font-one">
+<h2>السعودية - الرياض - حي الصحافة - طريق الملك عبدالعزيز - مبنى سليب نايس: العنوان</h2>
+<h5><i class="fa-solid fa-user"></i></h5>
+</div>
+
+<div class="font-one">
+<h2>مصر - القاهرة الجديدة - حي البنفسج - ق 15 : العنوان</h2>
+<h5><i class="fa-solid fa-user"></i></h5>
+</div>
+<div class="font-imgs">
+<img src="../imgs-bottom/2.png"/>
+<img src="../imgs-bottom/3.png"/>
+</div>
+</div>
+</div>
+
+
+<div class="center-center-top">
+<h1>روابط تهمك</h1>
+<div class="grid">
+<p>استضافه المواقع</p>
+<p>vps سيرفرات </p>
+<p>مدار vps سيرفرات </p>
+<p>سيرفرات ويندز</p>
+<p>السيرفرات الكاملة</p>
+<p>تصميم المواقع الاكتورونية</p>
+<p>تصميم المتاجر الاكتورونية</p>
+<p>التسويق الاكتورونى</p>
+<p>الدومينات</p>
+<p>الربح والعملات</p>
+<p>اتفاقية الستخدام</p>
+<p>طرية الدفع</p>
+<p>العروض الخاصة</p>
+<p>برنامج العيادات والمركزية الخاصة</p>
+<p>برنامج المحماه والقضيا</p>
+<p>الحملات الاعلانية</p>              
+</div>
+</div>
+
+
+<div class="center-rigth">
+<img src="../imgs-bottom/1.png">
+<h4>نؤمن دائماً بان الإستمرار في القمة للكيانات التجارية يتطلب الكثير من التطوير الدائم في الفكر , في المنهجية , في النظم العامة , في الخدمات المقدمة , في طريقة العرض , لذلك تعمل تقنية دائماً بشكل متطور بفكر ومنهجية ومجموعة من النظم الإدارية والخدمات الحديثة والمتطورة التي تسعى دائماً لهدفها في كتابة الثقافة الإلكترونية الحديثة والوصول بها لقمة مقدمي الخدمات إقليمياً وعالمياً .</h4>
+</div>
+</div>
+
+<div class="test-one">
+<div class="test-bottom">
+<div class="test-rigth">
+<img src="../imgs-bottom/4.png">
+<img src="../imgs-bottom/5.png">
+<img src="../imgs-bottom/6.png">
+<img src="../imgs-bottom/7.png">
+<img src="../imgs-bottom/8.png">
+<img src="../imgs-bottom/9.png">
+<img src="../imgs-bottom/10.png">
+<img src="../imgs-bottom/11.png">
+<img src="../imgs-bottom/12.png">
+<img src="../imgs-bottom/13.png">
+<img src="../imgs-bottom/14.png">
+<img src="../imgs-bottom/15.png">
+<img src="../imgs-bottom/16.png">
+
+</div> 
+<div class="test-center">
+  <p>Copyright © 2006 - 2026 </p>
+  <img src="../imgs-bottom/19.png">
+</div> 
+<div class="test-lift">
+<p>الشروط والاحكام</p>
+<p>مدونة وتقنية</p>
+<P>اتصل بينا</P>
+</div> 
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+<script src="../js/app.js" defer></script>
+<script src="../js/Test.js"></script>
+
+</body>
+</html>
+
+
+

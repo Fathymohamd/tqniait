@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section {
+    text-align: center;
+    background-color: red;
+}
+
+
+.section .section-top h1 {
+    font-size: 22px;
+    font-weight: 800;
+    color: #fff;
+}
+ 
+.section .section-top h2 {
+    font-size: 17px;
+    width: 60%;
+    margin: auto;
+    font-weight: 300;
+    color: #fff;
+    word-spacing: 2px;
+}
+
+.section-top .section-center {
+    border: 2px solid #111;
+    padding: 5px;
+    display: flex;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    background-color: #fff;
+    margin-top: 1rem;
+}
+
+.section-top .section-center a {
+cursor: pointer;
+padding: 6px;
+color: #000;
+    transition: 0.5;
+    -webkit-transition: 0.5;
+    -moz-transition: 0.5;
+    -ms-transition: 0.5;
+    -o-transition: 0.5;
+}
+.section-top .section-center  a:hover {
+   color: #ff0000;
+    transition: 0.5;
+    -webkit-transition: 0.5;
+    -moz-transition: 0.5;
+    -ms-transition: 0.5;
+    -o-transition: 0.5;
+}
+
+.section-center a.active{
+color:white;
+    background-color: #111;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.section-img{
+    width: 90%;
+    margin: auto;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.section-img-left {
+    background-color: #fff;
+    height: 50vh;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    position: absolute;
+    width: 50%;
+    left: -1rem;
+     top: 4rem;
+}
+.section-img-left:first-child {
+text-align: end;
+justify-content: center;
+}
+.section-img-left h3 {
+    margin-top: 1rem;
+}
+.section-img-left  p {
+    margin-top: 1rem;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+ .mune-bootem {
+    display: inline-block;
+    padding: 5px;
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.3s;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    width: 150px;
+    margin-top: 1rem;
+  
+}
+ .mune-bootem:hover {
+    background-color: red;
+    opacity: 0.7;
+}
+.fathy   {
+    margin-right: 3rem;
+}
+.fathy img {
+    margin-top: 1rem;
+}
+
+.section-img-rigth img , .section-img-left img  {
+    object-fit: cover;
+}
+.section-img-rigth img {
+ margin-left: 33rem;
+ height: 70vh;
+}
+
+@media (max-width : 768px){
+    .section-center {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+.section-img{
+display: flex;
+flex-direction: column;
+max-width: 100%;
+height: 95vh;
+justify-content: stretch;
+
+}
+
+.section-img-left,
+.section-img-rigth{
+width:100%;
+}
+.section-img-rigth img {
+ margin-left: 0;
+ margin-top: 0;
+ height: 40vh;
+ width: 95%;
+}
+
+   .section-img-left {
+    background-color: #fff;
+    height: 50vh;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+      -o-border-radius: 3px;
+    position: absolute;
+    top: 21rem;
+    width: 95%;
+    left: 10px;
+    
+}
+
+.section-top .section-center {
+    border: 1px solid #111;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    gap: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    width: 95%;
+    margin: auto;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color: #fff;
+    margin-top: 1rem;
+}
+.section .section-top h1 {
+    font-size: 22px;
+    font-weight: 800;
+    color: #fff;
+    width: 100%;
+}
+
+.section .section-top h2 {
+    font-size: 17px;
+    margin: auto;
+    font-weight: 600;
+    color: #fff;
+    width: 95%;
+}
+}
